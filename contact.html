@@ -1,154 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <title>Contact Us</title>
-    <style>
-        .contact{
-    margin: 20px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-}
-form h3{
-    font-weight: 800;
-    color: #606163;
-    font-size: 30px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-form{
-   background: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px;
-    border-radius: 10px;
-    max-width: 600px;
-    width: 90%;
-}
-form input, form textarea{
-    border: 0;
-    margin: 10px;
-    padding: 20px;
-    background: #f5f5f5;
-}
-form button{
-    padding: 15px;
-    background: #ff4422;
-    color: whitesmoke;
-    font-size: 18px;
-    border: 0;
-    outline: none;
-    cursor:pointer;
-    width: 150px;
-    margin: 20px auto 0;
-    border-radius: 30px;
-}
-form button:hover{
-    background: black;
-
-}
-.header-wrapper{
-	width: 90%;
-	align-content: space-between;
-	align-items: center;
-	margin: 15px auto;
-	display: grid;
-	grid-auto-flow: row;
-	grid-template-columns: repeat(3,1fr);
-}
-.header-wrapper ul{
-	padding: 0px 0px;
-}
-
-.header-wrapper ul li{
-	display: inline-block;
-	padding: 5px 15px;
-}
-
-.header-wrapper ul li a{
-	text-decoration: none;
-	font-size: 17px;
-	color: black;
-}
-.logo span{
-	font-size: 23px;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-    
-}
-hr{
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.logo{
-	text-align: center;
-}
-
-.icons{
-	text-align: right;
-}
-
-.icons img{
-	width: 20px;
-	height: 20px;
-	margin-left: 20px;
-
-}
-.logo-text{
-	animation: ChangeColor 5.0s linear infinite;
-	color: #b721ff;
-}
-
-@keyframes ChangeColor{
-	0%{
-		color: #21d4fd;
-	}
-	50%{
-		color: #b721ff;
-	}
-	100%{
-		color: #21d4fd;
-	}
-}
-    </style>
 </head>
+
 <body>
-    <div class="header-wrapper">
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="logo">
-        <span class="logo-text">Beautify</span>
-    </div>
-    <div class="icons">
-        <a href="#"><img src="images/search.png"></a>				
-        <a href="#"><img src="images/user.png"></a>				
-        <a href="#"><img src="images/shopping-cart.png"></a>				
-    </div>
-</div>
-<hr>
-    <div class="contact">
-        <form action="#" method="POST">
-            <h3>Contact Us! </h3>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" placeholder="Email Id" name="email" required>
-            <input type="text" name="phone" placeholder="Phone no." required>
-            <textarea placeholder="Type Your Message" name="message" rows="4"></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span class="logo-text">Beautify</span>
+            </div>
+            <div class="icons">
+                <a href="#"><img src="images/search.png"></a>
+                <a href="#"><img src="images/user.png"></a>
+                <a href="#"><img src="images/shopping-cart.png"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="contact">
+            <form action="#" method="POST">
+                <h3>Contact Us! </h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Id" name="email" required>
+                <input type="text" name="phone" placeholder="Phone no." required>
+                <textarea placeholder="Type Your Message" name="message" rows="4"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer-wrapper">
+            <footer>
+                <div class="col-50">
+                    <span class="logo-text">Beautify</span>
+                    <p class="sub-text">Give your customers insight into your product collection.</p>
+                </div>
+                <div class="col-25">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-25">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="">Shiping</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="footer-end">
+                    <p>Ankit Pandey</p>
+                </div>
+            </footer>
+
+        </div>
     </div>
 </body>
+
 </html>
