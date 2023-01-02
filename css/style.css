@@ -471,7 +471,7 @@ Background: #Eaeff4;
 Margin: 0 Auto;
 Width: 100%;
 Max-Width: 1140px;
-Min-Height: 100vh;
+/* Min-Height: 100vh; */
 Display: Flex;
 Align-Items: Center;
 Justify-Content: Center;
@@ -607,7 +607,7 @@ Display: Flex;
         }
         .Login .Login-Form Input{
         Display: Block;
-        Width: 100%;
+        Width: 95%;
         Height: 35px;
         Padding: 0 10px;
         Outline: None;
@@ -620,7 +620,7 @@ Display: Flex;
         .Login .Login-Form Button,
         .Login .Login-Form Input[Type=Submit] {
         Display: Inline-Block;
-        Width: 100%;
+        Width: 95%;
         Margin-Top: 5px;
         Color: #2cb2d3;
         Font-Size: 16px;
@@ -676,11 +676,11 @@ Display: Flex;
         height: 100%
         
     }
-    form {
-		width: 317px;
+    #contact_form {
+		
 		padding: 20px;
-		margin-bottom: 48%;
-		margin-top: 26px;
+		margin-bottom: 30%;
+		margin-top: 25%;
 	}
 	.product-container{
 		margin-top: 350px;
